@@ -1,0 +1,201 @@
+  <!DOCTYPE html>
+  <html >
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+      <title> World's Best University</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+             <nav>
+               <a href="index.html"><img src ="images/logo.png"></a>
+               <div class ="nav-links" id ="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                   <li><a href="index.htm">HOME</a></li>
+                   <li><a href="about.htm">ABOUT</a></li>
+                   <li><a href="course.htm">COURSE</a></li>
+                   <li><a href="Blog.htm">BLOG</a></li>
+                   <li><a href="contact.htm">CONTACT</a></li>
+                 </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+             </nav>
+       <div class="text-box">
+         <h1>World's Best University<h1>
+           <p>
+             “Even the greatest were beginners. Don’t be afraid to take that first step.”
+         </p>
+         <a href="" class="hero-btn">Visit me to know more</a>
+       </div>
+
+        </section>
+
+           <!--------------course--------------->
+           <section class="course">
+               <h1>Courses We Offer</h1>
+               <p>
+                 We believe in excellence.
+               </p>
+           <div class="row">
+              <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                  We provide some of the most diverse Intermediate courses in different languages, science, culture and sports.
+                </p>
+              </div>
+              <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                  We not only provide for best education in different fields but we provide students with good practical and Internship knowledge.
+                </p>
+              </div>
+              <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                  We have some of the world's best researchers that receive freedom and funding that, they are working tirelessly for the bright future of this planet.
+                </p>
+              </div>
+           </div>
+
+           </section>
+
+           <!------------campus------------>
+
+      <section class="campus">
+          <h1>Our Global Campus</h1>
+          <p>
+            Find us in these cities.
+          </p>
+
+          <div class="row">
+            <div class="campus-col">
+              <img src="images/london.png" >
+              <div class="layer">
+                <h3>LONDON</h3>
+              </div>
+            </div>
+            <div class="campus-col">
+              <img src="images/newyork.png" />
+              <div class="layer">
+                <h3>NEW YORK</h3>
+              </div>
+            </div>
+            <div class="campus-col">
+              <img src="images/washington.png" />
+              <div class="layer">
+                <h3>WASHINTON</h3>
+              </div>
+            </div>
+          </div>
+      </section>
+
+<!----------Facilities------------->
+
+<section class="Facilities">
+  <h1>Our Facilities</h1>
+  <p>We provide one of the best infrastructure to learn and grow.</p>
+
+  <div class="row">
+    <div class="Facilities-col">
+       <img src="images/library.png">
+       <h3>World class Library</h3>
+       <p>As gateways to knowledge and culture, libraries play a fundamental role in society.
+    </div>
+    <div class="Facilities-col">
+       <img src="images/basketball.png">
+       <h3>Large Playground</h3>
+       <p>We have modern infrastructure for sports.
+    </div>
+    <div class="Facilities-col">
+       <img src="images/cafeteria.png">
+       <h3>World class Cafeteria</h3>
+       <p>We try to provide best enviroment.
+    </div>
+  </div>
+
+</section>
+<!--------------testimonials------------->
+<section class="testimonials">
+  <h1>What our student says</h1>
+  <p>Your feedback matters to us.</p>
+
+<div class="row">
+  <div class="testimonials-col">
+    <img src="images/user1.jpg">
+    <div class="">
+      <p>One of the best experiences i had in my life was in this collage. I experienced different culture and diversity in this collage. This collage have one of the best falulty in the world. </p>
+        <h3>Elizabeth Olsen</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+  </div>
+  <div class="testimonials-col">
+    <img src="images/user2.jpg">
+    <div class="">
+      <p> They have amazing curriculum. They try to provide the best experiences for students as well as teachers </p>
+      <h3>Hugh Jackman</h3>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-----------call to action------->
+
+<section class="cta">
+<h1>Enroll For Our Varius Online Courses<br> Anywhere From The World</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!------Footer------->
+
+<section class="footer">
+  <h4>ABOUT US</h4>
+  <p>  We simply aim for excellence.</p>
+
+<div class="icons">
+  <i class="fa fa-facebook"</i>
+    <i class="fa fa-twitter"</i>
+    <i class="fa fa-instagram"</i>
+    <i class="fa fa-linkedin"</i>
+</div>
+
+</section>
+
+
+
+
+
+
+        <!---------------------javascript------------------->
+    <section>
+      <script>
+
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+      function hideMenu(){
+         navLinks.style.right="-200px";
+      }
+
+       </script>
+    </section>
+
+
+
+    </body>
+  </html>

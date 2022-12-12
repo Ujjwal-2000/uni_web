@@ -1,0 +1,123 @@
+  <!DOCTYPE html>
+  <html >
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+      <title> University Website Design </title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+             <nav>
+               <a href="index.html"><img src ="images/logo.png"></a>
+               <div class ="nav-links" id ="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                   <li><a href="index.htm">HOME</a></li>
+                   <li><a href="about.htm">ABOUT</a></li>
+                   <li><a href="course.htm">COURSE</a></li>
+                   <li><a href="Blog.htm">BLOG</a></li>
+                   <li><a href="contact.htm">CONTACT</a></li>
+                 </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+             </nav>
+               <h1>Our Courses</h1>
+        </section>
+        <!------------ COURSE-------------->
+        <section class="course">
+            <h1>Courses WE Offer</h1>
+            <p>
+              We believe in excellence.
+            </p>
+        <div class="row">
+           <div class="course-col">
+             <h3>Intermediate</h3>
+             <p>
+               We provide some of the most diverse Intermediate courses in different languages, science, culture and sports.
+             </p>
+           </div>
+           <div class="course-col">
+             <h3>Degree</h3>
+             <p>
+               We not only provide for best education in different fields but we provide students with good practical and Internship knowledge.
+             </p>
+           </div>
+           <div class="course-col">
+             <h3>Post Graduation</h3>
+             <p>
+               We have some of the world's best researchers that receive freedom and funding that, they are working tirelessly for the bright future of this planet.
+             </p>
+           </div>
+        </div>
+
+        </section>
+
+        <!-----------facilities----------->
+
+        <section class="Facilities">
+          <h1>Our Facilities</h1>
+          <p>We provide one of the best infrastructure to learn and grow.</p>
+
+          <div class="row">
+            <div class="Facilities-col">
+               <img src="images/library.png">
+               <h3>World class Library</h3>
+               <p>As gateways to knowledge and culture, libraries play a fundamental role in society.
+            </div>
+            <div class="Facilities-col">
+               <img src="images/basketball.png">
+               <h3>Large Playground</h3>
+               <p>We have modern infrastructure for sports.
+            </div>
+            <div class="Facilities-col">
+               <img src="images/cafeteria.png">
+               <h3>World class Cafeteria</h3>
+               <p>We try to provide best enviroment.
+            </div>
+          </div>
+
+        </section>
+<!------Footer------->
+
+<section class="footer">
+  <h4>ABOUT US</h4>
+  <p> We simply aim for excellence.</p>
+
+<div class="icons">
+  <i class="fa fa-facebook"</i>
+    <i class="fa fa-twitter"</i>
+    <i class="fa fa-instagram"</i>
+    <i class="fa fa-linkedin"</i>
+
+</div>
+</section>
+
+
+
+
+
+
+        <!---------------------javascript------------------->
+    <section>
+      <script>
+
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+      function hideMenu(){
+         navLinks.style.right="-200px";
+      }
+
+       </script>
+    </section>
+
+
+
+    </body>
+  </html>
